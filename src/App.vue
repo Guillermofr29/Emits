@@ -1,15 +1,9 @@
-<script setup lang="ts">
-import ZonasList from './components/Zonas/ZonasList.vue';
-
-</script>
-
 <template>
-  <main>
-    <body>      
-      <ZonasList></ZonasList>
-    </body>
-  </main>
+  <router-view></router-view>
 </template>
+
+<script setup lang="ts">
+</script>
 
 <style scoped>
 
